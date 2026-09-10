@@ -59,7 +59,7 @@
   left: 5%;
   width: 90%;
   height: 12.2%;
-  background: #f8faf9;
+  background: linear-gradient(180deg, #fdfdfd 0%, #f7f9fa 45%, #edf2f3 100%);
 }
 
 .poster-intro::after {
