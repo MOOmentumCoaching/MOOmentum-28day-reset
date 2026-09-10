@@ -50,3 +50,30 @@
     padding: 14px 17px;
   }
 }
+
+.poster-intro::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 2.4%;
+  left: 5%;
+  width: 90%;
+  height: 12.2%;
+  background: #f8faf9;
+}
+
+.poster-intro::after {
+  content: "";
+  position: absolute;
+  z-index: 2;
+  top: 3.7%;
+  left: 9%;
+  width: 82%;
+  height: 9.8%;
+  background: url("../brand/front-logo.webp") center / contain no-repeat;
+}
+
+.poster-name,
+.poster-start {
+  z-index: 3;
+}
