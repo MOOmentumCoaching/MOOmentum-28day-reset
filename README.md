@@ -18,6 +18,7 @@ The baseline will be developed into the client-facing assessment and progress to
 ## Structure
 
 - `dist/` — deployable website
-- `archive/live-baseline/` — reserved for an untouched copy of the recovered live build
+
+The recovered artwork is stored as optimised WebP files so the assessment loads quickly on mobile.
 
 The deployable website is static and can be hosted with GitHub Pages.
