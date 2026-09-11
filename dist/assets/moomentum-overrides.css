@@ -51,25 +51,14 @@
   }
 }
 
-.poster-intro::before {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  top: 2.4%;
-  left: 5%;
-  width: 90%;
-  height: 12.2%;
-  background: linear-gradient(180deg, #fdfdfd 0%, #f7f9fa 45%, #edf2f3 100%);
-}
-
 .poster-intro::after {
   content: "";
   position: absolute;
   z-index: 2;
-  top: 3.7%;
-  left: 9%;
-  width: 82%;
-  height: 9.8%;
+  top: 0.8%;
+  left: 2%;
+  width: 96%;
+  height: 18%;
   background: url("../brand/front-logo.webp") center / contain no-repeat;
 }
 
