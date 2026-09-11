@@ -58,16 +58,20 @@
   top: 3%;
   left: 2%;
   width: 96%;
-  height: 17.5%;
+  height: 14.65%;
   background: url("../brand/front-logo.webp") center / contain no-repeat;
 }
 
 .poster-intro .poster-name {
-  top: 51%;
+  top: 49.37%;
   height: 5.2%;
   border: clamp(2px, .35vw, 5px) solid var(--brand);
   border-radius: 10px;
   box-shadow: 0 5px 0 #187d7b24;
+}
+
+.intro-card.poster-intro {
+  background-image: url("../brand/character-stats-intro.webp?v=5");
 }
 
 .poster-intro .poster-name,
