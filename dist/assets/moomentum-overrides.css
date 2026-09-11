@@ -10,7 +10,7 @@
   object-fit: contain;
 }
 
-.back {
+.quiz-actions .back {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -26,11 +26,11 @@
   box-shadow: inset 0 -4px #0000002e;
 }
 
-.back:hover:not(:disabled) {
+.quiz-actions .back:hover:not(:disabled) {
   background: var(--brand-bright);
 }
 
-.back:disabled {
+.quiz-actions .back:disabled {
   opacity: .2;
   cursor: not-allowed;
 }
@@ -46,7 +46,7 @@
     max-height: 68px;
   }
 
-  .back {
+  .quiz-actions .back {
     padding: 14px 17px;
   }
 }
@@ -62,7 +62,7 @@
   background: url("../brand/front-logo.webp") center / contain no-repeat;
 }
 
-.poster-name {
+.poster-intro .poster-name {
   top: 51%;
   height: 5.2%;
   border: clamp(2px, .35vw, 5px) solid var(--brand);
@@ -70,7 +70,7 @@
   box-shadow: 0 5px 0 #187d7b24;
 }
 
-.poster-name,
-.poster-start {
+.poster-intro .poster-name,
+.poster-intro .poster-start {
   z-index: 3;
 }
