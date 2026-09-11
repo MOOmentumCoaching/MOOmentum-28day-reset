@@ -70,6 +70,10 @@
   box-shadow: 0 5px 0 #187d7b24;
 }
 
+.poster-intro .poster-start {
+  top: 76.4%;
+}
+
 .intro-card.poster-intro {
   background-image: url("../brand/character-stats-intro.webp?v=5");
 }
