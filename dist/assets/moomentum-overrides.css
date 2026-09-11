@@ -55,11 +55,19 @@
   content: "";
   position: absolute;
   z-index: 2;
-  top: 0.8%;
+  top: 2.2%;
   left: 2%;
   width: 96%;
-  height: 18%;
+  height: 17.5%;
   background: url("../brand/front-logo.webp") center / contain no-repeat;
+}
+
+.poster-name {
+  top: 52.7%;
+  height: 5.2%;
+  border: clamp(2px, .35vw, 5px) solid var(--brand);
+  border-radius: 10px;
+  box-shadow: 0 5px 0 #187d7b24;
 }
 
 .poster-name,
