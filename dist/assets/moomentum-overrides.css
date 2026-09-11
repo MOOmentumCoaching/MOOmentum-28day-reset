@@ -63,7 +63,7 @@
 }
 
 .poster-name {
-  top: 43.5%;
+  top: 50%;
   height: 5.2%;
   border: clamp(2px, .35vw, 5px) solid var(--brand);
   border-radius: 10px;
